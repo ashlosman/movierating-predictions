@@ -31,12 +31,18 @@ For both the twitter and metacritic data files, the respective files should be r
   - This file computes the compound vader sentiment as well as the word embeddings for the metacritic dataset.
 
 - lasso-regression-twitter-metacritic1.ipynb
-  -  This file joins and cleans all of the datasets and builds the regression models. 
+  - This file joins and cleans both the twitter and metacritic datasets and builds the regression models. 
+- lasso-regression-twitter.ipynb
+  - This file builds the regression models for the twitter dataset only.
+- lasso-regression-metacritic.ipynb
+  - This file builds the regression models for the metacritic dataset only. 
 
 
 
 **NOTE ON HTML FILES:
 - lasso-regression-twitter-metacritic1.ipynb
   - Due to difficulties obtaining the entirety of the word embeddings on the full twitter dataset, the HTML file provides the output combining the numerous datasets we had to join to get the full amount of word embeddings. The updated file in the repository was completed using the sample data. 
+
+Due to the size of the full datasets, they are unable to be uploaded to this repository. They can be found on this google drive link: https://drive.google.com/drive/folders/1XXl70YMiQ5CwJjKI-7ndIc1zhy6KCOCg?usp=sharing
 
 
