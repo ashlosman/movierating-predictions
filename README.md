@@ -40,7 +40,7 @@ For both the twitter and metacritic data files, the respective files should be r
 
 
 **NOTE ON HTML FILES:
-- lasso-regression-twitter-metacritic1.ipynb
+- lasso-regression-twitter-metacritic1.html
   - Due to difficulties obtaining the entirety of the word embeddings on the full twitter dataset, the HTML file provides the output combining the numerous datasets we had to join to get the full amount of word embeddings. The updated file in the repository was completed using the sample data. 
 
 Due to the size of the full datasets, they are unable to be uploaded to this repository. They can be found on this google drive link: https://drive.google.com/drive/folders/1XXl70YMiQ5CwJjKI-7ndIc1zhy6KCOCg?usp=sharing
