@@ -15,12 +15,12 @@ For both the twitter and metacritic data files, the respective files should be r
   - output files: sample_metacritic_vader.csv, sample_metacritic_doc_reduction.csv
 
 ## Step 2: Join Tables 
-- lasso-regression-twitter-metacritic1.ipynb
+- regression_twitter_metacritic.ipynb
   - Run "Join Tables" section
   -  required input files: sample_twitter_vader.csv, ratings_clean.csv, sample_metacritic_vader.csv, sample_metacritic_doc_reduction.csv, sample_twitter_doc_reduction.csv
 
 ## Step 3: Build Models
-- lasso-regression-twitter-metacritic1.ipynb
+- regression_twitter_metacritic.ipynb
   - Run "Modeling" section
 
 ### File Descriptions
@@ -30,11 +30,11 @@ For both the twitter and metacritic data files, the respective files should be r
 - METACRITIC_vader_word2vec.ipynb
   - This file computes the compound vader sentiment as well as the word embeddings for the metacritic dataset.
 
-- lasso-regression-twitter-metacritic1.ipynb
+- regression_twitter_metacritic.ipynb
   - This file joins and cleans both the twitter and metacritic datasets and builds the regression models. 
-- lasso-regression-twitter.ipynb
+- regression_twitter.ipynb
   - This file builds the regression models for the twitter dataset only.
-- lasso-regression-metacritic.ipynb
+- regression_metacritic.ipynb
   - This file builds the regression models for the metacritic dataset only. 
 
 
