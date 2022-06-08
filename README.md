@@ -39,30 +39,15 @@ For both the twitter and metacritic data files, the respective files should be r
 ## Step 2: Join Tables 
 - regression_twitter_metacritic.ipynb
   - Run "Join Tables" section
-  -  required input files: sample_twitter_vader.csv, ratings_clean.csv, sample_metacritic_vader.csv, sample_metacritic_doc_reduction.csv, sample_twitter_doc_reduction.csv
+  - required input files: sample_twitter_vader.csv, ratings_clean.csv, sample_metacritic_vader.csv, sample_metacritic_doc_reduction.csv, sample_twitter_doc_reduction.csv
 
 ## Step 3: Build Models
 - regression_twitter_metacritic.ipynb
   - Run "Modeling" section
 
-### File Descriptions
-- TWITTER_vader_word2vec.ipynb
-  - This file computes the compound vader sentiment as well as the word embeddings for the twitter dataset. 
-
-- METACRITIC_vader_word2vec.ipynb
-  - This file computes the compound vader sentiment as well as the word embeddings for the metacritic dataset.
-
-- regression_twitter_metacritic.ipynb
-  - This file joins and cleans both the twitter and metacritic datasets and builds the regression models. 
-- regression_twitter.ipynb
-  - This file builds the regression models for the twitter dataset only.
-- regression_metacritic.ipynb
-  - This file builds the regression models for the metacritic dataset only. 
-
-
 
 **NOTE ON HTML FILES:
-- lasso-regression-twitter-metacritic1.html
+- regression_twitter_metacritic.html
   - Due to difficulties obtaining the entirety of the word embeddings on the full twitter dataset, the HTML file provides the output combining the numerous datasets we had to join to get the full amount of word embeddings. The updated file in the repository was completed using the sample data. 
 
 Due to the size of the full datasets, they are unable to be uploaded to this repository. They can be found on this google drive link: https://drive.google.com/drive/folders/1XXl70YMiQ5CwJjKI-7ndIc1zhy6KCOCg?usp=sharing
