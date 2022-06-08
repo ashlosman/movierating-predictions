@@ -2,6 +2,28 @@
 
 We are three UCI Data Science students performing an analysis on movie rating predictions based on public opinion data from Twitter and Metacritic. This repository is being used to organize the code for our Data Science Capstone Project. 
 
+__Disclaimer__: The csv files are a much smaller subset of our real dataset in interest of saving space and runtime for word2vec calculations. 
+
+## Python Files:
+|Python File| Functionality |
+|---------------|---------------|
+| METACRITIC_vader_word2vec.ipynb| Calculates Sentiment and Word Embeddings for Metacritic Data |
+| TWITTER_vader_word2vec.ipynb | Calculates Sentiment and Word Embeddings for Twitter Data | 
+| regression_metacritic.ipynb | Calculates LASSO and Linear Regression for Metacritic Data |
+| regression_twitter.ipynb | Calculates LASSO and Linear Regression for Twitter Data | 
+| regression_twitter_metacritic.ipynb | Calculates LASSO and Linear Regression for Metacritic and Twitter Data |
+
+## CSV Files:
+| CSV File | Functionality |
+|----------|---------------|
+| ratings_clean.csv | imDb ratings |
+| sample_metacritic.csv | sample version of our metacritic data | 
+| sample_metacritic_doc_reduction.csv | word2vec calculations for sample metacritic data | 
+| sample_metacritic_vader.csv | sample metacritic vader sentiments | 
+| sample_twitter.csv | sample version of our tweet data | 
+| sample_twitter_doc_reduction.csv | word2vec calculations for sample twitter data | 
+| sample_twitter_vader.csv | sample twitter vader sentiments | 
+
 The manual instructions to cultivate the final model and results are as follows: 
 
 ## Step 1: Vader Sentiment and Word2Vec Word Embedding Calculations
